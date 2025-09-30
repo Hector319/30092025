@@ -1,0 +1,8 @@
+temperature_celsius = input("Indica la temperatura en Celsius: ")
+print(type(temperature_celsius))
+
+temperature_celsius = int(temperature_celsius)
+print(type(temperature_celsius))
+
+temperature_fahrenheit=(temperature_celsius*9/5)+32
+print(temperature_fahrenheit)
